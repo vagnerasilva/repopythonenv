@@ -24,3 +24,14 @@ sudo apt-get install python3-venv
 - Passo 4
     $ pip install -r requirements.txt
     $ pip freeze 
+
+
+- Passo 5 
+    $ deactivate
+
+
+## Importante ! 
+
+- Atualizar requirments.txt 
+
+    pip freeze > requirements.txt 
