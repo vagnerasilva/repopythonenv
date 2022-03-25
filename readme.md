@@ -35,3 +35,6 @@ sudo apt-get install python3-venv
 - Atualizar requirments.txt 
 
     pip freeze > requirements.txt 
+
+- Limpar pasta padraoenv para nao ocupar espaço
+    rm -Rf padraoenv
