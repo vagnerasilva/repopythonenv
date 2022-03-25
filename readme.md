@@ -18,15 +18,19 @@ sudo apt-get install python3-venv
 - Passo 3
     
     $ source ./padraoenv/bin/activate
+
     $ " #verificando os packages instalados no seu sistema"
+
     $ pip freeze 
 
 - Passo 4
     $ pip install -r requirements.txt
+
     $ pip freeze 
 
 
 - Passo 5 
+
     $ deactivate
 
 
@@ -34,7 +38,8 @@ sudo apt-get install python3-venv
 
 - Atualizar requirments.txt 
 
-    pip freeze > requirements.txt 
+    $ pip freeze > requirements.txt 
 
 - Limpar pasta padraoenv para nao ocupar espaço
-    rm -Rf padraoenv
+
+    $ rm -Rf padraoenv
