@@ -29,10 +29,21 @@ sudo apt-get install python3-venv
     $ pip freeze 
 
 
-- Passo 5 
+- Passo 5 ( Desligando) 
 
     $ deactivate
 
+## Exemplo usando o shell script
+
+- Passo 1 
+    $ ./start.sh
+
+- Passo 2
+    $ source ./padraoenv/bin/activate
+
+- Passo 3 ( Desligando) 
+
+    $ deactivate
 
 ## Importante ! 
 
