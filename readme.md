@@ -15,3 +15,10 @@ sudo apt-get install python3-venv
 
 
 - Passo 3
+    
+    $ source ./padraoenv/bin/activate
+    $ " verificando os packages instalados no seu sistema"
+    $ pip freeze 
+
+- Passo 4
+    $ pip install -r requirements.txt
