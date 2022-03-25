@@ -1,5 +1,6 @@
-## Exemplo de repo de projeto env python
+# Exemplo de padronizacao de repos projeto env python
 
+## Opção 1 : Realizando configuração manual
 
 - Passo 1
 
@@ -23,7 +24,7 @@ sudo apt-get install python3-venv
 
     $ pip freeze 
 
-- Passo 4
+- Passo 4 ( Atualizando requirements.txt para os outros usuarios e realizando push)
     $ pip install -r requirements.txt
 
     $ pip freeze 
@@ -33,7 +34,7 @@ sudo apt-get install python3-venv
 
     $ deactivate
 
-## Exemplo usando o shell script
+## Opção 2: usando o shell script
 
 - Passo 1 
     $ ./start.sh
@@ -41,7 +42,10 @@ sudo apt-get install python3-venv
 - Passo 2
     $ source ./padraoenv/bin/activate
 
-- Passo 3 ( Desligando) 
+- Passo 3 ( Atualizando requirements.txt para os outros usuarios e realizando push)
+    $ pip install -r requirements.txt
+
+- Passo 4 ( Desligando) 
 
     $ deactivate
 
@@ -54,3 +58,8 @@ sudo apt-get install python3-venv
 - Limpar pasta padraoenv para nao ocupar espaço
 
     $ rm -Rf padraoenv
+
+- Verificar qual path esta sendo utilizando no python
+
+    $ import sys
+    $ print(sys.path)
