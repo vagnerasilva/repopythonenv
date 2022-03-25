@@ -4,8 +4,8 @@
 
 - Passo 1
 
+Obs: Caso linux atualizar antes 
 sudo apt-get update
-
 sudo apt-get install python3-venv
 
     $ " #Essa sera a pasta dos seus arquivos env ./nomedapastadoseuenv "
