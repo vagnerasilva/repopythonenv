@@ -1,0 +1,21 @@
+{
+    /*## Configuracao do tamanho da fonte e tamanho da letra no terminal */
+    "window.zoomLevel": 1,
+    "editor.fontSize": 14,
+    /*## Configuracao de onde vai rodar o botao runner ali em cima a direita*/
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+
+    "python.linting.mypyEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.testing.unittestEnabled": false,
+
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.testing.pytestArgs": [
+        "test_prj"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.linting.enabled": true
+}
